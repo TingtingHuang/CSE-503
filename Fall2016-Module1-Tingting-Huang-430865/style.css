@@ -1,0 +1,28 @@
+div{
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color:lightyellow;
+}
+p{
+  color: purple;
+  font-size: 20px;
+  margin-left: 10px;
+}
+h2{
+  color:blue;
+  text-align: center;
+}
+h3{
+  color: green;
+  font-style: italic;
+  text-align: center;
+}
+img{
+  display: block;
+  margin: auto;
+}
+h4{
+  color: purple;
+  text-align: right;
+  margin-right: 20px;
+}
