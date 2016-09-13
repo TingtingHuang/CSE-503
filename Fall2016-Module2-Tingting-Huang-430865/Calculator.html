@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<style type="text/css">
+	.main{
+		width: 760px;
+		background-color: teal;
+		color: white;
+		margin: auto;
+		padding: 10px;
+	}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<p>This is a simple calculator.</p>
+		<form name="input" action="calculation.php" method="GET">
+			<label>
+				First number: <br>
+				<input type="number" name="num1"> <br>
+			</label>
+			<label>
+				Second number: <br>
+				<input type="number" name="num2"> <br>
+			</label>
+			<input type="radio" name="method" value="add"> add <br>
+			<input type="radio" name="method" value="subtract"> subtract <br>
+			<input type="radio" name="method" value="multiply"> multiply <br>
+			<input type="radio" name="method" value="divide"> divide <br>
+			<input type="submit" value="Calculate">
+		</form>
+	</div>
+</body>
+</html>
